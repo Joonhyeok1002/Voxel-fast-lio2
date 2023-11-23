@@ -5,3 +5,5 @@ The algorithm resolves computational cost problems by incorporating voxelization
 In the actual experiment, utilizing the alpha prime LiDAR in an outdoor environment, it was observed that the algorithm could not sustain beyond 1km, leading to a forced CPU shutdown.
 However, the proposed method successfully performs flawless map generation during a 3.2km drive. 
 This achievement underscores its exceptional potential for future outdoor map generation algorithm designs.
+
+
