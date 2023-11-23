@@ -14,6 +14,7 @@ FAST-LIO2: Fast Direct LiDAR-inertial Odometry
 
 ## FAST-LIO 2.0
 <!-- ![image](doc/fast-lio2.gif) -->
+
 <div align="left">
 <img src="doc/real_experiment2.gif" width=89.6% />
 </div>
