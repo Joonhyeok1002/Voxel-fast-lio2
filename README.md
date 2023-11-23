@@ -38,7 +38,7 @@ B. The warning message "Failed to find match for field 'time'." means the timest
 
 C. We recommend to set the **extrinsic_est_en** to false if the extrinsic is give. As for the extrinsic initiallization, please refer to our recent work: [**Robust Real-time LiDAR-inertial Initialization**](https://github.com/hku-mars/LiDAR_IMU_Init).
 
-### 3.3 For Velodyne or Ouster (Velodyne as an example)
+## Velodyne LiDAR example
 
 Step A: Setup before run
 
@@ -46,7 +46,7 @@ Edit ``` config/velodyne.yaml ``` to set the below parameters:
 
 1. LiDAR point cloud topic name: ``` lid_topic ```
 2. IMU topic name: ``` imu_topic ``` (both internal and external, 6-aixes or 9-axies are fine)
-3. Set the parameter ```timestamp_unit``` based on the unit of **time** (Velodyne) or **t** (Ouster) field in PoindCloud2 rostopic
+3. Set the parameter ```timestamp_unit``` based on the unit of **time** (Velodyne) field in PoindCloud2 rostopic
 4. Line number (we tested 16, 32 and 64 line, but not tested 128 or above): ``` scan_line ```
 5. Translational extrinsic: ``` extrinsic_T ```
 6. Rotational extrinsic: ``` extrinsic_R ``` (only support rotation matrix)
