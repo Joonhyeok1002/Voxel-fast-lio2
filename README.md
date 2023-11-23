@@ -10,7 +10,7 @@ This achievement underscores its exceptional potential for future outdoor map ge
 
 
 **Related papers**: 
-FAST-LIO2: Fast Direct LiDAR-inertial Odometry](doc/Fast_LIO_2.pdf)
+FAST-LIO2: Fast Direct LiDAR-inertial Odometry
 
 
 ### 2.2 Build from source
