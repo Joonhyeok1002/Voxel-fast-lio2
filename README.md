@@ -21,7 +21,7 @@ A. This project was tested in the Ubuntu 18.04 and ROS melodic environment.
 B. Please prepare a PC with Ubuntu 18.04 installed.
 
 
-## 1. Source list & key setting
+### 1. Source list & key setting
 
 ```
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'​
@@ -29,21 +29,21 @@ B. Please prepare a PC with Ubuntu 18.04 installed.
 ```
 
 
-## 2. Package update
+### 2. Package update
 
 ```
     sudo apt update
 ```
 
 
-## 3. ROS-melodic installation
+### 3. ROS-melodic installation
 
 ```
     sudo apt install ros-melodic-desktop-full
 ```
 
 
-## 4. Environment construction
+### 4. Environment construction
 
 ```
     echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
@@ -51,14 +51,14 @@ B. Please prepare a PC with Ubuntu 18.04 installed.
 ```
 
 
-## 5. Tool installation for package
+### 5. Tool installation for package
 
 ```
     sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
 
 
-## 6. ROS installation and initalization
+### 6. ROS installation and initalization
 
 ```
     sudo apt-get install python-pip
@@ -67,7 +67,7 @@ B. Please prepare a PC with Ubuntu 18.04 installed.
     rosdep update
 ```
 
-## 7. Installation check
+### 7. Installation check
 
 ```
     printenv | grep ROS
