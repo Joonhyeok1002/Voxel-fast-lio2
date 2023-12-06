@@ -96,7 +96,7 @@ Clone the repository and catkin_make:
 - If you want to use a custom build of PCL, add the following line to ~/.bashrc
 ```export PCL_ROOT={CUSTOM_PCL_PATH}```
 
-## 2. Preparation
+### 2. Preparation
 Noted:
 
 A. Please make sure the IMU and LiDAR are **Synchronized**, that's important.
@@ -105,7 +105,7 @@ B. The warning message "Failed to find match for field 'time'." means the timest
 
 C. We recommend to set the **extrinsic_est_en** to false if the extrinsic is give. As for the extrinsic initiallization, please refer to our recent work: [**Robust Real-time LiDAR-inertial Initialization**](https://github.com/hku-mars/LiDAR_IMU_Init).
 
-## 3. Velodyne LiDAR example
+### 3. Velodyne LiDAR example
 
 Step A: Setup before run
 
