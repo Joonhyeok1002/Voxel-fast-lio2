@@ -73,7 +73,7 @@ B. Please prepare a PC with Ubuntu 18.04 installed.
     printenv | grep ROS
 ```
 
-## FAST-LIO 2.0
+# FAST-LIO 2.0
 <!-- ![image](doc/fast-lio2.gif) -->
 
 <div align="left">
