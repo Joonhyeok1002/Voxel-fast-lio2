@@ -67,7 +67,7 @@ B. Please prepare a PC with Ubuntu 18.04 installed.
     rosdep update
 ```
 
-## Installation check
+## 7. Installation check
 
 ```
     printenv | grep ROS
