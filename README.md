@@ -12,6 +12,52 @@ This achievement underscores its exceptional potential for future outdoor map ge
 **Related papers**: 
 FAST-LIO2: Fast Direct LiDAR-inertial Odometry
 
+## ROS environment construction
+
+Noted:
+
+A. This project was tested in the Ubuntu 18.04 and ROS melodic environment.
+
+B. Please prepare a PC with Ubuntu 18.04 installed.
+
+Clone the repository and catkin_make:
+
+## 1. Source list & key setting
+```
+    sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'​
+    sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654​
+...
+
+## 2. Package update
+...
+    sudo apt update
+...
+
+## 3. ROS-melodic installation
+...
+    sudo apt install ros-melodic-desktop-full
+...
+
+## 4. Environment construction
+...
+    echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+...
+
+## 5. Tool installation for package
+...
+    sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+...
+
+## 6. ROS installation and initalization
+...
+    sudo apt-get install python-pip
+    sudo pip install -U rosdep
+    sudo rosdep init
+    rosdep update
+```
+
+
 ## FAST-LIO 2.0
 <!-- ![image](doc/fast-lio2.gif) -->
 
